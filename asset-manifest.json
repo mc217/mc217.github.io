@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mc217.github.io/static/css/main.b850e2be.css",
+    "main.js": "/mc217.github.io/static/js/main.9e663960.js",
+    "static/media/resume.pdf": "/mc217.github.io/static/media/resume.748a941602d676fb0fb9.pdf",
+    "index.html": "/mc217.github.io/index.html",
+    "main.b850e2be.css.map": "/mc217.github.io/static/css/main.b850e2be.css.map",
+    "main.9e663960.js.map": "/mc217.github.io/static/js/main.9e663960.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b850e2be.css",
+    "static/js/main.9e663960.js"
+  ]
+}
