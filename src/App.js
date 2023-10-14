@@ -12,7 +12,7 @@ function DispalyResume() {
     <div>
       <Document
         file = {resume}
-        style = {{width :'100vw', height: 'auto'}}
+        // style = {{width :'auto', height: 'auto'}}
         >
         <Page pageIndex={0} renderTextLayer={false} renderAnnotationLayer={false}/>
         </Document>
@@ -49,8 +49,8 @@ return <>
           <h1>Molly Chen</h1>
           <p>Software Engineer & Web Developer</p>
       </header>
-      <div class="container">
-          <div class="section">
+      <div className="container">
+          <div className="section">
               <h2>About Me</h2>
               <p>
               I graduated from Columbia University with a degree in Computer Science. 
@@ -58,7 +58,7 @@ return <>
               I'm dedicated to always providing high-quality solutions.
               </p>
           </div>
-          <div class="section">
+          <div className="section">
               <h2>Skills</h2>
               <ul>
                   <li>Python, C++</li>
@@ -70,7 +70,7 @@ return <>
                   <li>Vim, TCP/IP, AWS, Git</li>
               </ul>
           </div>
-          <div class="section">
+          <div className="section">
               <h2>Portfolio</h2>
               <p>Here are some of my recent projects:</p>
               <ul>
@@ -92,12 +92,12 @@ return <>
               </ul>
           </div>
 
-          <div class="section">
+          <div className="section">
               <h2>Resume</h2>
               <p><ResumeButton/></p>
           </div>
 
-          <div class="section">
+          <div className="section">
               <h2>Contact Information</h2>
               <p>Email: mollychen217@gmail.com</p>
               <p>LinkedIn: www.linkedin.com/in/xyc</p>
