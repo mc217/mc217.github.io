@@ -68,6 +68,7 @@ return <>
                   <li>UI/UX Design</li>
                   <li>Front-end Frameworks (e.g., React, Django)</li>
                   <li>Vim, TCP/IP, AWS, Git</li>
+                  <li>Machine Learning, Artificial Intelligence</li>
               </ul>
           </div>
           <div className="section">
