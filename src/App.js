@@ -12,7 +12,7 @@ function DispalyResume() {
     <div>
       <Document
         file = {resume}
-        // style = {{width :'auto', height: 'auto'}}
+        style={{ maxWidth: '100%', height: 'auto' }}
         >
         <Page pageIndex={0} renderTextLayer={false} renderAnnotationLayer={false}/>
         </Document>
