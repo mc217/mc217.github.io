@@ -3,21 +3,22 @@ import React from "react";
 import { useState } from "react";
 import resume from './resume.pdf';
 import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/TextLayer.css";
 import './App.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function DispalyResume() {
-    return (
-      <div>
-        <Document
-          file = {resume}
-          style = {{width :'100vw', height: 'auto'}}
-          >
-          <Page pageIndex={0} renderTextLayer={false}/>
-          </Document>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <Document
+        file = {resume}
+        style = {{width :'100vw', height: 'auto'}}
+        >
+        <Page pageIndex={0} renderTextLayer={false} renderAnnotationLayer={false}/>
+        </Document>
+    </div>
+  );
+}
   
   
   function ResumeButton() {
